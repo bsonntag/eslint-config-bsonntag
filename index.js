@@ -1,5 +1,7 @@
 module.exports = {
   extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
     'react-app',
     'plugin:jsx-a11y/recommended',
     'prettier',
@@ -7,4 +9,21 @@ module.exports = {
   ],
   parser: 'babel-eslint',
   plugins: ['jsx-a11y'],
+  rules: {
+    'dot-notation': 'error',
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
+    'id-length': 'error',
+    'new-cap': 'error',
+    'no-alert': 'error',
+    'no-shadow': 'error',
+    'no-sync': 'error',
+    'no-unneeded-ternary': 'error',
+    'no-var': 'error',
+    'object-shorthand': 'error',
+    'operator-assignment': 'error',
+    'prefer-spread': 'error',
+    radix: 'error',
+    'require-await': 'warn',
+    yoda: 'error',
+  },
 };
