@@ -15,7 +15,6 @@ module.exports = {
     'id-length': 'error',
     'new-cap': 'error',
     'no-alert': 'error',
-    'no-shadow': 'error',
     'no-sync': 'error',
     'no-unneeded-ternary': 'error',
     'no-var': 'error',
