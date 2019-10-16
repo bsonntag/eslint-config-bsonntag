@@ -22,6 +22,7 @@ module.exports = {
     'operator-assignment': 'error',
     'prefer-spread': 'error',
     radix: 'error',
+    'react/prop-types': 'off',
     'require-await': 'warn',
     yoda: 'error',
   },
